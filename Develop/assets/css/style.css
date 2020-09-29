@@ -88,62 +88,26 @@ p {
 
 /* MIGHT BE ABLE TO MOVE Benefit sections into just benefits, and then use benefits img h3 */
 
-/* .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
 .benefit-sections {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* consolidated benefit lead,brand,cost into one class */   
 
 .benefit-sections h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
 .benefit-sections img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
 /* CONSOLIDATED ALL ABOVE REDUNDANT/REPEAT CODE INTO ONE CLASS called benefit sections */
 
-.search-engine-optimization {
+/* Consolidated all duplicate redundant code into one class instead of 3, called .main-content-panel and added class to divs */
+
+.main-content-panel {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -152,47 +116,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.main-content-panel img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.main-content-panel h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
