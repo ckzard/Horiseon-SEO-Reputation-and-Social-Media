@@ -75,6 +75,26 @@ p {
     margin-left: 20px;
 }
 
+/* Consolidated all duplicate redundant code into one class instead of 3, called .main-content-panel and added class tags to divs */
+
+.main-content-panel {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-content-panel img {
+    max-height: 200px;
+}
+
+.main-content-panel h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,30 +125,10 @@ p {
 }
 /* CONSOLIDATED ALL ABOVE REDUNDANT/REPEAT CODE INTO ONE CLASS called benefit sections */
 
-/* Consolidated all duplicate redundant code into one class instead of 3, called .main-content-panel and added class to divs */
-
-.main-content-panel {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-content-panel img {
-    max-height: 200px;
-}
-
-.main-content-panel h2 {
+/* .section h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
