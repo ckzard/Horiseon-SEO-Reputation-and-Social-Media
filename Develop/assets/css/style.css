@@ -125,18 +125,3 @@ p {
 }
 /* CONSOLIDATED ALL ABOVE REDUNDANT/REPEAT CODE INTO ONE CLASS called benefit sections */
 
-/* .section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
-}
