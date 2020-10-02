@@ -1,15 +1,15 @@
-/*TODO:
- - add comments to each CSS line */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* styles the background of the entire site */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styling for header / navbar begins */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,16 +39,20 @@ body {
     margin-left: 25px;
 }
 
+/* Styling for header / navbar ends */
+
+/* Styles links to be white and removes hyperlink*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Styles all paragraph sections to be consistently 16px */
 p {
     font-size: 16px;
 }
 
-/* BANNER PICTURE */
+/* Front page banner styling for size and source of image*/
 .front-page-banner { 
     height: 800px;
     width: 100%;
@@ -58,7 +62,7 @@ p {
     background-position: center;
 }
 
-/* BELOW IS THE MAIN CONTENT SECTION OF THE PAGE */
+/* Styling for the main content of the page begins */
 
 .content {
     width: 75%;
@@ -88,13 +92,15 @@ p {
     float: left;
     margin-right: 25px;
 }
-
+/* Float classes to give some stylistic variety to images */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* BELOW IS THE SIDE PANEL SECTION */
+/* Styling for the main content of the page begins */
+
+/* Styling for aside vertical side section begins */
 
 .benefits {
     margin-right: 20px;
@@ -122,4 +128,4 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Styling for aside vertical side section ends */
