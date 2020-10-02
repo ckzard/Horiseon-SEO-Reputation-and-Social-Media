@@ -104,6 +104,7 @@ p {
 
 .benefits {
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -114,7 +115,7 @@ p {
 }
 
 .benefit-sections {
-    margin-bottom: 32px;
+    margin-bottom: 100px;
     color: #ffffff;
 }
 
